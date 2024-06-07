@@ -3,14 +3,13 @@ AI-powered document scraping and analysis.
 
 ## Setup
 
-1. Clone the repository
-This can be done either with GitHub Desktop using the repository link, or via Command Prompt:
+**1. Clone the repository.** This can be done either with GitHub Desktop using the repository link, or via Command Prompt:
 ```bash
 cd C:/.../repos
 git clone https://github.com/tnjfrerich/ai-scrape
 ```
-2. Create a virtual environment
-This will allow you to install packages uniquely to this project, thereby avoiding package version conflicts in other projects.  
+
+**2. Create a virtual environment.** This will allow you to install packages uniquely to this project, thereby avoiding package version conflicts in other projects.  
 Navigate to the directory in Command Prompt with
 ```bash
 cd C:/.../repos/ai-scrape
@@ -24,8 +23,8 @@ Finally, activate it with
 venv\Scripts\activate
 ```
 If you chose to use a virtual environment, make sure to change your Python interpreter in VSCode. Open VSCode, open the Command Palette with "F1", type "Python: Select Interpreter", and select your virtual environment (i.e., venv)
-3. Install dependencies
-The dependencies have been added to `requirements.txt`. All you need to do is run the following command:
+
+**3. Install dependencies.** The dependencies have been added to `requirements.txt`. All you need to do is run the following command:
 ```bash
 pip install .
 ```
